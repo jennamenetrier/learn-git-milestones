@@ -28,7 +28,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 ## Instructions
 
-1. Review slides 1–37 of the [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
+1. Review the first four sections (Git Introduction, CLI Tutorial, Git Installation, and Git Tutorial) of [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
 1. Complete each task below, creating files and adding content inside the [Completions](#completions) table when prompted: ✏️
 1. After you finish, celebrate your Git proficiency! 🙌
 
@@ -100,19 +100,26 @@ Install your development environment
 1. When you first install or start using Git, verify it is installed by typing `git` on the command line and hitting enter. This displays a help file with a list of possible commands.
  	- ✏️ What does `log` do? Add your answer to [completions](#completions).
 2. Then you should update the configuration. Add your name and email (replace with your information and press return after each line)
+
 ```bash
 git config --global user.name "Jane Doe"
 git config --global user.email janedoe@example.com
 ```
+
 3. Set the [default branch to main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+
 ```bash
 git config --global init.defaultBranch main
 ```
+
 4. Set pull to merge ([not rebase](https://stackoverflow.com/a/36587353/441878))
+
 ```bash
 git config --global pull.rebase false
 ```
+
 5. Confirm your global settings worked with either of these [1](https://stackoverflow.com/a/46986031/441878)
+
 ```bash
 # show contents of global config
 cat ~/.gitconfig
@@ -200,11 +207,13 @@ You should be able to ...
   1. Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
   1. Click Create Repository
   1. This should now be your class folder's directory structure.
-  ```
+
+  ```html
   <your-class-name-here>
     |-- my-awesome-project
     |-- learn-git-milestones
   ```
+
   1. Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
   1. ✏️ Add a README file: `README.md`
   1. ✏️ In the README write your name and the date
@@ -270,11 +279,10 @@ That is all that is required for this milestone. See the `ADVANCED.md` file if y
 
 Item # | Description | Completed
 --- | --- | ---
-1a | 1st Favorite emoji |  
-
-1b | Link to `commit #1 from Github.com` |
-1c | Link to markdown tables docs |
-1d | What does `log` do? |
+1a | 1st Favorite emoji |   🥵
+1b | Link to `commit #1 from Github.com` | <a href="https://github.com/omundy/learn-git-milestones/compare/main...jennamenetrier:learn-git-milestones:main">Commit 1</a>
+1c | Link to markdown tables docs | <a href="https://www.w3schools.io/file/markdown-links/>Markdown Table</a>
+1d | What does `log` do? | It pulls history from the repositories
 2a | 2nd Favorite emoji | 🤠
 2b | Link to `commit #2 from Github Desktop` |
 2c | Full path to your working directory |
@@ -283,7 +291,7 @@ Item # | Description | Completed
 2f | Link to `commit #4 from Atom` |
 3a | Link to `my-awesome-project` github.com repo page |
 4a | Link to `my-awesome-project` github.io "project site" |
-... | ... | Total: 0/12
+
 
 
 
