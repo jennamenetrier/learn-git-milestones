@@ -284,7 +284,7 @@ Item # | Description | Completed
 1c | Link to markdown tables docs | <a href="https://www.w3schools.io/file/markdown-links/>Markdown Table</a>
 1d | What does `log` do? | It pulls history from the repositories
 2a | 2nd Favorite emoji | 🤠
-2b | Link to `commit #2 from Github Desktop` |
+2b | Link to `commit #2 from Github Desktop` | <a href="https://github.com/jennamenetrier/learn-git-milestones/commit/e2c5654c57dda34ab1c3f30084ed9aff4ab8d0b4">Commit #2a</a>
 2c | Full path to your working directory |
 2d | Link to `commit #3 from CLI` |
 2e | 3rd Favorite emoji |
