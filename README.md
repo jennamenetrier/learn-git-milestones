@@ -288,7 +288,7 @@ Item # | Description | Completed
 2c | Full path to your working directory | /Users/jennamenetrier/github/learn-git-milestones
 2d | Link to `commit #3 from CLI` | <a href="https://github.com/jennamenetrier/learn-git-milestones/commit/bc2ff07fd9c07fe4018d8be738d381e372cace77">Commit 3</a>
 2e | 3rd Favorite emoji |🙉
-2f | Link to `commit #4 from Atom` |
+2f | Link to `commit #4 from Atom` | <a href="https://github.com/jennamenetrier/learn-git-milestones/commit/230ea4a1285263dfb92f36f98356f93dd8f7c8ea">Commit #4</a>
 3a | Link to `my-awesome-project` github.com repo page |
 4a | Link to `my-awesome-project` github.io "project site" |
 
